@@ -3,7 +3,7 @@
 This paper proposed a novel neural network structure to achieve medium-range eddy trajectory prediction, named **ETPNet**, which is compliant with the physical constraint. This structure contains a variant of the long short-term memory (LSTM) cell, enhancing the dynamic interaction and representation ability of the features, constraints, and knowledge. The pipeline of the whole prediction framework and the variant LSTM are shown as follows:
 
 <center class = "half">
-<img src = “img/model.png”  width = “50%” align = left><img src = “img/TraceLSTM.png”  width = “50%” align = right>
+<img src = “img/model.png”  width = 800><img src = “img/TraceLSTM.png”  width = 800>
 </center>
 
 ## Citing
