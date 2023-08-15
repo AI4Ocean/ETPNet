@@ -1,14 +1,10 @@
 # Medium-range Trajectory Prediction Network Compliant to Physical Constraint for Oceanic Eddy
 
-This paper proposed a novel neural network structure to achieve medium-range eddy trajectory prediction, named **ETPNet**, which is compliant with the physical constraint. This structure contains a variant of the long short-term memory (LSTM) cell, enhancing the dynamic interaction and representation ability of the features, constraints, and knowledge. The pipeline of the whole prediction framework is shown as follows:
+This paper proposed a novel neural network structure to achieve medium-range eddy trajectory prediction, named **ETPNet**, which is compliant with the physical constraint. This structure contains a variant of the long short-term memory (LSTM) cell, enhancing the dynamic interaction and representation ability of the features, constraints, and knowledge. The pipeline of the whole prediction framework and the variant LSTM are shown as follows:
 
-<div align="center"> <img src="img/model.png" width = 800 /> </div>
-
-
-
-And the structure of the variant LSTM is illustrated as:
-
-<div align="center"> <img src="img/TraceLSTM.png" width = 800 /> </div>
+<center class = "half">
+<img src = “img/model.png”  width = “50%” align = left><img src = “img/TraceLSTM.png”  width = “50%” align = right>
+</center>
 
 ## Citing
 
