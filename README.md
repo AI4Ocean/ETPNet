@@ -14,6 +14,7 @@ And the structure of the variant LSTM is illustrated as
 
 
 ## Experimental Results
+MAE and MSE are the traditional evaluation metrics for regression tasks in machine learning, which are used for quantitative analysis of the error between predicted and truth. In practical applications, the real distance needs to be calculated in conjunction with the characteristics of the earth. Thus, we adopt MGD and SGD, which are computed by the formula of great circle distance. The MGD is the mean geodesic distance and the SGD is the summation geodesic distance of the future seven days.
 | Method (MAGE Loss) |     MGD     |     SGD     |    MSE     |    MAE     |
 | :----------------- | :---------: | :---------: | :--------: | :--------: |
 | EGRU               |   45.9186   |  321.4303   |   0.1964   |   0.2766   |
