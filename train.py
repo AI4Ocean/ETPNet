@@ -1,4 +1,4 @@
-from Moudle import *
+from model import *
 from torch import nn
 import torch.optim as optim
 import argparse
