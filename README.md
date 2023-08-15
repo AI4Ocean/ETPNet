@@ -4,6 +4,8 @@ This paper proposed a novel neural network structure to achieve medium-range edd
 
 <div align="center"> <img src="img/model.png" width = 800 /> </div>
 
+
+
 And the structure of the variant LSTM is illustrated as:
 
 <div align="center"> <img src="img/TraceLSTM.png" width = 800 /> </div>
