@@ -24,6 +24,15 @@ And the structure of the variant LSTM is illustrated as
 | ETPNet-Physical    |   10.6959   |   74.8712   |   0.0090   |   0.0646   |
 | ETPNet             | **10.1715** | **71.2008** | **0.0085** | **0.0611** |
 
+| Method (L1Loss) |   MGD   |   SGD    |  MSE   |  MAE   |
+| :-------------- | :-----: | :------: | :----: | :----: |
+| EGRU            | 58.4550 | 409.1852 | 0.3792 | 0.3311 |
+| ELSTM           | 36.4317 | 255.0218 | 0.6370 | 0.2060 |
+| Seq2Seq         | 37.8517 | 264.9622 | 0.1120 | 0.2155 |
+| MSeq2Seq        | 14.2436 | 99.7053  | 0.0145 | 0.0848 |
+| ETPNet-Ego      | 14.1674 | 99.1718  | 0.0169 | 0.0859 |
+| ETPNet-Physical | 18.1555 | 127.0886 | 0.0264 | 0.1094 |
+| ETPNet          | 10.2154 | 71.5075  | 0.0086 | 0.0616 |
 ## Citing
 
 if you find this work is helpful to your research, please consider citing our paper.
